@@ -1,0 +1,46 @@
+{
+  "_name_or_path": "dima806/yoga_pose_image_classification",
+  "architectures": [
+    "ViTForImageClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "encoder_stride": 16,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Bridge-Pose",
+    "1": "Child-Pose",
+    "2": "Cobra-Pose",
+    "3": "Downward-Dog-Pose",
+    "4": "Pigeon-Pose",
+    "5": "Standing-Mountain-Pose",
+    "6": "Tree-Pose",
+    "7": "Triangle-Pose",
+    "8": "Warrior-Pose"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Bridge-Pose": 0,
+    "Child-Pose": 1,
+    "Cobra-Pose": 2,
+    "Downward-Dog-Pose": 3,
+    "Pigeon-Pose": 4,
+    "Standing-Mountain-Pose": 5,
+    "Tree-Pose": 6,
+    "Triangle-Pose": 7,
+    "Warrior-Pose": 8
+  },
+  "layer_norm_eps": 1e-12,
+  "model_type": "vit",
+  "num_attention_heads": 12,
+  "num_channels": 3,
+  "num_hidden_layers": 12,
+  "patch_size": 16,
+  "problem_type": "single_label_classification",
+  "qkv_bias": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.43.2"
+}

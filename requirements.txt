@@ -1,0 +1,22 @@
+mediapipe==0.10.14
+opencv-python
+scikit-learn
+keyboard
+# Basic packages
+numpy
+pandas
+matplotlib
+imblearn
+imbalanced-learn
+# Hugging Face Transformers and Datasets
+transformers
+datasets>=2.14.5
+
+# Accelerate and Evaluate
+accelerate>=0.27
+evaluate
+
+# PyTorch and Torchvision
+torch
+torchvision
+
